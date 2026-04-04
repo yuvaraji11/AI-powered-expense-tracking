@@ -1,5 +1,9 @@
 # Nebula AI Expense Tracker
 
+**Live Demo**: https://ai-powered-expense-tracking.vercel.app/dashboard
+**GitHub Repo**: https://github.com/yuvaraji11/AI-powered-expense-tracking
+**Demo Video**:
+
 A full-stack AI-powered expense tracking application built with Next.js, MongoDB, and Google Gemini AI for natural language expense management.
 
 ## Features
@@ -72,19 +76,43 @@ Set these in your `.env.local` or through the v0 Settings:
 MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/nebula
 GEMINI_API_KEY=your-gemini-api-key
 JWT_SECRET=your-secret-key-min-32-chars
+http://localhost:3000
 ```
 
 ### Local Development
 
 ```bash
 # Install dependencies
-pnpm install
+npm install
 
 # Run development server
-pnpm dev
+npm run dev
 ```
 
 Visit `http://localhost:3000` to access the app.
+
+## 📸 Demo
+#### ➤ Signup
+![signup](public/signup.png)
+#### ➤ Login
+![Login](public/login.png)
+#### ➤ DashBoard
+![DashBoard](public/Dashboard.png)
+#### ➤ AI ChatBot
+![ChatBot](public/AI.png)
+#### ➤ Add Expense with AI ChatBot
+![Add-ChatBot](public/Add-AI.png)
+#### ➤ Transactions
+![Transaction](public/Transaction.png)
+#### ➤ Add Transactions
+![Add-Transaction](public/Add-Transaction.png)
+#### ➤ Analytics
+![Analytics](public/Analytics.png)
+#### ➤ Budgets
+![Budget](public/Budget.png)
+#### ➤ Settings
+![Settings](public/settings.png)
+
 
 ## API Endpoints
 
@@ -144,9 +172,25 @@ Visit `http://localhost:3000` to access the app.
 - **Database**: MongoDB with Mongoose
 - **Authentication**: JWT with jose + bcrypt
 - **AI**: Google Gemini AI
-- **UI**: Tailwind CSS + shadcn/ui + Recharts
+- **UI**: Tailwind CSS 
 - **Deployment**: Vercel
 
-## License
+## 🚀 Deployment
 
-MIT License
+### Platform: Vercel
+
+1. Push code to GitHub  
+2. Go to Vercel  
+3. Import your repository  
+4. Add environment variables  
+5. Deploy
+
+##  Future Improvements
+
+- OCR-based receipt scanning     
+- Recurring expense tracking  
+- AI learning from user corrections  
+
+
+
+
