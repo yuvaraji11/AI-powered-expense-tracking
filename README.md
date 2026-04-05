@@ -2,7 +2,7 @@
 
 **Live Demo**: https://ai-powered-expense-tracking.vercel.app/dashboard
 **GitHub Repo**: https://github.com/yuvaraji11/AI-powered-expense-tracking
-**Demo Video**:
+**Demo Video**: https://drive.google.com/file/d/1kBDsk6rzVGzFKfHBHVHIkjoidDmLGgJX/view?usp=sharing
 
 A full-stack AI-powered expense tracking application built with Next.js, MongoDB, and Google Gemini AI for natural language expense management.
 
